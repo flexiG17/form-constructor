@@ -1,0 +1,46 @@
+.block {
+  width: 840px;
+  height: 95px;
+  border-radius: 23px;
+  background-color: #E2D1FF;
+  padding: 0 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+
+  p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+.data {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+
+  .countWithIcon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    p {
+      font-size: 22px;
+      font-weight: 400;
+    }
+  }
+
+  .more {
+    color: #000;
+    text-decoration: none;
+
+    p {
+      font-size: 22px;
+      font-weight: 400;
+    }
+  }
+}

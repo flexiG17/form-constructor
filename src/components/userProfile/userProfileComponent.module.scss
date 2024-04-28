@@ -1,0 +1,37 @@
+.block {
+  display: flex;
+  gap: 180px;
+  justify-content: center;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+
+  &_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 400px;
+    height: 100px;
+    border-radius: 17px;
+    border: none;
+    background-color: #8E8989;
+    text-decoration: none;
+
+    p {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 500;
+      color: #fff;
+    }
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}

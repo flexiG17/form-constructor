@@ -1,0 +1,29 @@
+.grid {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 250px 40px 100px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 105px;
+  border-radius: 15px;
+  background-color: #8E8989;
+  text-decoration: none;
+  border: none;
+
+  p {
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+.formList {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
